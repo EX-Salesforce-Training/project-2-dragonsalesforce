@@ -1,0 +1,20 @@
+<template>
+    <template if:true={button1View}>
+        <lightning-card>
+            <center>
+                <lightning-record-form object-api-name={objectApiName} fields={fields} onsuccess={handleSuccess}></lightning-record-form>
+            </center>
+        </lightning-card>
+    </template>
+    
+    <template if:true={button2View}>
+        <template if:true={offers.data}>
+            <lightning-card>
+                <center>
+                    <lightning-datatable key-field="Id" data={offers.data} columns={columns}></lightning-datatable>
+                </center>
+            </lightning-card>
+        </template>
+    </template>
+
+</template>

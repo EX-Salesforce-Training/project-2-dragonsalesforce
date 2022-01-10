@@ -1,0 +1,25 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "TDProject2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "FantasyRE"
+                }
+            ]
+        }
+    ],
+    "name": "TobiDiazP2",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "FantasyRE": "04t5f000000r4J6AAI",
+        "TDProject2": "0Ho5f000000KzABCA0",
+        "TDProject2@0.1.0-1": "04t5f000000n1TgAAI"
+    }
+}
