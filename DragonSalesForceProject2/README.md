@@ -1,18 +1,22 @@
-# Salesforce DX Project: Next Steps
+# Project 2
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Description.
 
-## How Do You Plan to Deploy Your Changes?
+Our goal was to create a experience cloud site, and include LWC and Aura compenents for our business of choice. Also create apex classes, triggers, and testing for the apex classes to get our business to work properly. The project must be completed via a package development model.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Tenchnologies Used.
+JavaScript -LWC and Aura
+HTML -LWC and Aura
+Apex -Triggers,Testing, Helper Classes.
 
-## Configure Your Salesforce DX Project
+## Features
+1. Working filter for our Properties object.
+2. Aura Component that interacts with that filter application
+3. Triggers for creating both a property and property owner from an opportunity
+4. Aura Component created for another team mates LWC.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Contributors
+Nick De Sousa
+Elizabeth Mohan
+Tobi Diaz
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
