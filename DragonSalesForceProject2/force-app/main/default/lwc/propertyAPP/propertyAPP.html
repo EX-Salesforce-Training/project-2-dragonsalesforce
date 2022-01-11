@@ -1,0 +1,27 @@
+<template>
+    <template if:false={filterMode}>
+        <div class="slds-align_absolute-center">
+        <lightning-button label="View Filter" title="Non-primary action" onclick={handleClick} variant="brand" class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </template>
+<template if:true={filterMode}>
+    <div class="slds-align_absolute-center">
+    <lightning-button label="View Filter" title="Non-primary action" onclick={handleClick} variant="brand" class="slds-m-left_x-small"></lightning-button>
+    <lightning-button label="Clear Filter Results" title="Non-primary action" onclick={handleClick2} variant="destructive-text" class="slds-m-left_x-small"></lightning-button>
+    </div>
+<div class="slds-grid slds-gutters slds-wrap slds-align_absolute-center">
+<template for:each={filterArray} for:item="props">
+<div key={key}>
+    <div >
+        <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small ">
+            <lightning-card  class="slds-text-heading_medium" title={props.Name}>
+                <img src={props.Picture_1__c}/>
+                <p class="slds-p-horizontal_small">{props.Description__c}</p>
+            </lightning-card>
+        </div>
+    </div>
+</div>
+</template>
+</div>
+</template>
+</template>
