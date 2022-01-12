@@ -1,8 +1,0 @@
-
-<aura:component access="global" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction">
-    <div class="row">
-    <lightning:button variant="brand" label="Submit Interest in Selling" title="Brand action" onclick="{!c.handleClick}" />
-    <lightning:button variant="brand-outline" label="View Previously Submited Opportunity" title="Brand action" onclick="{!c.handleClick2}" />
-    <!--<c:NameOfYourLWC aura:id="lwcComp" />-->
-    </div>
-</aura:component>	
