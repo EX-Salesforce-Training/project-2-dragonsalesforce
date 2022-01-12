@@ -1,0 +1,46 @@
+<template>
+    <lightning-card>
+        <div class="column">
+            <lightning-card>
+                <div class="row">
+                    <lightning-tile onclick={pic1Click}>
+                        <img class="tileImage" src={url1}>
+                    </lightning-tile>
+                    <br>
+                    <lightning-tile onclick={pic2Click}>
+                        <img class="tileImage" src={url2}>
+                    </lightning-tile>
+                    <br>
+                    <lightning-tile onclick={pic3Click}>
+                        <img class="tileImage" src={url3}>
+                    </lightning-tile>
+                    <br>
+                    <lightning-tile onclick={pic4Click}>
+                        <img class="tileImage" src={url4}>
+                    </lightning-tile>
+                    <br>
+                    <lightning-tile onclick={pic5Click}>
+                        <img class="tileImage" src={url5}>
+                    </lightning-tile>
+                </div>
+            </lightning-card>
+            <div class="row">
+                <lightning-tile>
+                <lightning-badge label={region}></lightning-badge>
+                <lightning-badge label={address}></lightning-badge>
+                <lightning-badge label={beds}></lightning-badge>
+                <lightning-badge label={baths}></lightning-badge>
+                <lightning-badge label={price}></lightning-badge>
+                </lightning-tile>
+            </div>
+            <br>
+            
+            
+            
+            <lightning-tile>
+                <img class="displayImage" src={bigUrl}>
+            </lightning-tile>
+            
+        </div>
+    </lightning-card>
+</template>

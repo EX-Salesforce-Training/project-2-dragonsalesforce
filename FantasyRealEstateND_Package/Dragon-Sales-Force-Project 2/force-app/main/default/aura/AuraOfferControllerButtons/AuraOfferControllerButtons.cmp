@@ -1,0 +1,9 @@
+<aura:component
+    implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
+    access="global">
+    <div class="row">
+        <lightning:button variant="brand" label="Make New Offer" onclick="{!c.createOffer}"></lightning:button>
+        <lightning:button variant="brand-outline" label="View Your Offers" onclick="{!c.viewOffers}"></lightning:button>
+        <!--<c:NameOfYourLWC aura:id="lwcComp" />-->
+    </div>
+</aura:component>	

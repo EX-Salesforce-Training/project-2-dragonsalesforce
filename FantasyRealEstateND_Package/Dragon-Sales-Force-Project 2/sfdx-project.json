@@ -1,0 +1,40 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "FantasyRealEstateND",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "FantasyRealEstateCorePackage"
+                }
+            ]
+        },
+        {
+            "path": "force-app",
+            "package": "FantasyRealEstateCorePackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "dragonsalesforceproject2",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "NickProject2Package": "0Ho5f000000GmugCAC",
+        "FantasyRE": "04t5f000000r4J6AAI",
+        "NickdeSousaProject2Package": "0Ho5f000000fxgXCAQ",
+        "NickdeSousaProject2Package@0.1.0-1": "04t5f0000004CcYAAU",
+        "NickdeSousaProject2Package@0.1.0-2": "04t5f0000004CciAAE",
+        "FantasyRealEstateND": "0Ho5f000000k9txCAA",
+        "FantasyRealEstateCorePackage": "04t5f000000S8bkAAC",
+        "FantasyRealEstateND@0.1.0-1": "04t5f000000WDnAAAW",
+        "FantasyRealEstateND@0.1.0-2": "04t5f000000WDnFAAW",
+        "FantasyRealEstateND@0.1.0-3": "04t5f000000WDnKAAW",
+        "FantasyRealEstateND@0.1.1-0": "04t5f000000WDnPAAW"
+    }
+}
