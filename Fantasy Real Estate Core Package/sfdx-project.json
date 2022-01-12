@@ -1,0 +1,18 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "FantasyRealEstateCorePackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "Fantasy Real Estate Core Package",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "FantasyRealEstateCorePackage": "0Ho5f0000010wX0CAI"
+    }
+}
