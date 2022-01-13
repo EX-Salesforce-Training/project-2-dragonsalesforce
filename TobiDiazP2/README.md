@@ -1,18 +1,42 @@
-# Salesforce DX Project: Next Steps
+# Project 2
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Project Description
 
-## How Do You Plan to Deploy Your Changes?
+Working in a small team, developers are tasked with creating a consistently-styled Experience Cloud site for a business using both Lightning Aura and Lightning Web Components to display knowledge of and comfortability with both frameworks. All teams are tasked with creating Apex Controllers and Apex Triggers to implement backend logic, as well as writing sufficient test coverage for that Apex code. In addition, the team is required to develop using the Package Based Development Model and make use of proper git/GitHub branching procedures.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Technologies Used
 
-## Configure Your Salesforce DX Project
+- Apex
+- HTML
+- CSS
+- JavaScript
+- Lightning Web Components
+- Aura Components
+- Salesforce
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Features
 
-## Read All About It
+- An LWC that switches between an About Us page to a Student Registration Page
+- Custom Salesforce Objects for storing Students and Courses
+- A Dashboard that shows the number of Students that have failed and passed courses
+- A Trigger that prevents duplicate Students
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+To do:
+
+- Rendering the Student Registration Page
+- Creating a Trigger that prevents a Student from taking a later course without taking the prerequisite courses first
+- Creating a Helper Class for Triggers
+- Creation of the Sales & Experience Cloud Site
+
+## Getting Started
+
+1. Run this Git Bash command: git clone. 
+2. Open the downloaded file in Visual Studio Code.
+3. Using the Command Palette (CTRL + SHIFT + P by default) Authorize an Org and Dev Hub.
+4. Still using the Command Palette, create a Scratch Org and Push the files to the Org.
+5. Once complete, use the Command Palette and Open Default Org.
+
+## Usage
+
+1. Go to the App Manager, and type in "Golden Spoke Driving School"
+2. There should be two results. The one with the custom icon is the Custom App that shows the Dashboard, Students, and Products. The other is the LWC that was created.
