@@ -34,6 +34,7 @@ Package based development
 - A new filter should be implemented to allow a user to view offers that have been made on properties they submitted.
 
 ## Getting Started
+https://github.com/EX-Salesforce-Training/project-2-dragonsalesforce.git
 
 Create a new Salesforce production org, use the following links to install required packages, 
 starting with the Core Package, then any order:
