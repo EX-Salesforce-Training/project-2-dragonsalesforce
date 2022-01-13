@@ -52,6 +52,7 @@ https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5f000000rG9sAA
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5f0000004FViAAM
 
 ### Andrew Emond's Package:
+https://revature-11f-dev-ed.my.salesforce.com/packaging/installPackage.apexp?p0=04t5f0000006zwqAAA
 
 Create a new Experience cloud site, deploy the Filter, AuraPicklist, OppAura, and OfferForm components on to the page as such: 
 ![image](https://user-images.githubusercontent.com/93998652/149240116-cb91d454-5f99-4763-8f3d-5bddc3144c6b.png)
