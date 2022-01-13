@@ -67,7 +67,7 @@ You may select a property to view and cycle through its associated images.
 ![image](https://user-images.githubusercontent.com/93998652/149241482-e5a71722-8196-4e4d-a1a3-459fcc8e7cb2.png)
 
 ## Contributors
-Nick de Sousa
-Andrew Emond
-Tobi Diaz
+Nick de Sousa,
+Andrew Emond,
+Tobi Diaz,
 Elizabeth Mohan
