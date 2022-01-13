@@ -57,7 +57,7 @@ https://revature-11f-dev-ed.my.salesforce.com/packaging/installPackage.apexp?p0=
 Create a new Experience cloud site, deploy the Filter, AuraPicklist, OppAura, and OfferForm components on to the page as such: 
 ![image](https://user-images.githubusercontent.com/93998652/149240116-cb91d454-5f99-4763-8f3d-5bddc3144c6b.png)
 
-Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+
 Properties created in the Property__c tab will be displayed directly onto the site. 
 If you use the component to "Submit Interest in Selling," you must go to the Opportunities tab and change the Stage to Closed Won. Refresh the site and it will appear as a property. (All URLs associated with a property will need to be allowed in the experience cloud Security Settings after reducing the strictness of the security)
 You may filter all properties by either Price, Bedrooms, Bathrooms, or Location.
